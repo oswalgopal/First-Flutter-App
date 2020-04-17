@@ -101,7 +101,7 @@ class _SignupState extends State<Signup> {
                               obscureText: true,
                               validator: (val) => val.length < 6 ? 'sdkfjskdlfj' : null,
                               decoration: InputDecoration(
-                                hintText: 'Enter Password',
+                                hintText: 'Confirm Password',
                                 hintStyle: TextStyle(
                                     color: Colors.blue,
                                     fontSize: 20
@@ -127,7 +127,7 @@ class _SignupState extends State<Signup> {
                             onTap: () {
                               Navigator.pushNamed(context, '/login');
                             },
-                            child: Text('Alreadt user Login', style: TextStyle(
+                            child: Text('Already user Login', style: TextStyle(
                                 fontSize: 11
                             ),),
                           )
