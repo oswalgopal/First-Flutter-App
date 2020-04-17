@@ -1,3 +1,9 @@
+/***
+ * @author: Gopal Oswal
+ * @date: 17 April, 2020
+ * @description: SignUp Page
+ */
+
 import 'package:flutter/material.dart';
 
 class Signup extends StatefulWidget {

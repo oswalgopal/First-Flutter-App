@@ -1,3 +1,9 @@
+/***
+ * @author: Gopal Oswal
+ * @date: 17 April, 2020
+ * @description: Main Dart File as App.js we have in react
+ */
+
 import 'package:crm/Signup.dart';
 import 'package:crm/login.dart';
 import 'package:flutter/material.dart';
