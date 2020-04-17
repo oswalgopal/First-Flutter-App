@@ -20,8 +20,19 @@ class _HomeState extends State<Home> {
             DrawerHeader(
               child: Column(
                 children: <Widget>[
-                  Text('Gopal Oswal'),
-                  Text('+91  7024415907')
+                  Image(
+                    image: AssetImage('assets/github.png'),
+                    width: 100,
+                    color: Colors.white,
+                  ),
+                  Text('Gopal Oswal', style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.white
+                  ),),
+                  Text('+91  7024415907', style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.white
+                  ),),
                 ],
               ),
               decoration: BoxDecoration(
@@ -37,6 +48,69 @@ class _HomeState extends State<Home> {
             ),
             ListTile(
               title: Text('Item 2'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 3'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 4'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 5'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 6'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 7'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 8'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 9'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Item 10'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Logout'),
               onTap: () {
                 // Update the state of the app.
                 // ...
