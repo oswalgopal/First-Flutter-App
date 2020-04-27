@@ -4,10 +4,10 @@
  * @description: Main Dart File as App.js we have in react
  */
 
-import 'package:crm/Signup.dart';
-import 'package:crm/login.dart';
+import 'package:crm/Pages/Signup.dart';
+import 'package:crm/Pages/login.dart';
 import 'package:flutter/material.dart';
-import 'package:crm/home.dart';
+import 'package:crm/Pages/home.dart';
 void main() => runApp(MaterialApp(
     initialRoute: '/login',
     routes: {
